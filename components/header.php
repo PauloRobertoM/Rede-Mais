@@ -5,10 +5,10 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-      <meta name="theme-color" content="#e8372e">
+      <meta name="theme-color" content="#d62d27">
       <title>Rede Mais</title>
 
-      <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+      <link rel="icon" href="assets/images/favicon-rede-mais.png" type="image/x-icon" />
       
       <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
       
@@ -30,16 +30,25 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                      </button>
-                     <a class="navbar-brand" href="index.php"><img class="logo" src="assets/images/logo-armas-bagagens.png" alt="Logo - Rede Mais" /></a>
+                     <a class="navbar-brand hvr-wobble-top" href="index.php"><img class="logo" src="assets/images/logo-rede-mais.png" alt="Logo - Rede Mais" /></a>
                   </div><!-- .navbar-header -->
+                  
+                  <div class="busca">
+                     <form class="navbar-form" role="search">
+                        <div class="input-group">
+                           <input type="text" class="form-control" placeholder="O que você procura?" name="srch-term" id="srch-term">
+                           <div class="input-group-btn">
+                              <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                           </div><!-- .input-group-btn -->
+                        </div><!-- .input-group -->
+                     </form>
+                  </div><!-- busca -->
 
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                      <ul class="nav navbar-nav">
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">QUEM SOMOS</a></li>
-                        <li><a href="">PRODUTOS</a></li>
-                        <li><a href="">BLOG</a></li>
-                        <li><a href="">CONTATO</a></li>
+                        <li><a href="">Quem somos</a></li>
+                        <li><a href="">Trabalhe Conosco</a></li>
+                        <li><a href="">Fale Conosco</a></li>
                      </ul><!-- .nav -->
                   </div><!-- .navbar-collapse -->
                </div><!-- .container -->
