@@ -30,7 +30,42 @@
             <div class="owl-carousel owl-theme" id="owl-oferta">
                 <div class="item">
                     <a href="">
-                        <img src="assets/images/oferta-rede-mais.png" alt="Oferta - Rede Mais" />
+                        <figure><img src="assets/images/oferta-rede-mais.png" alt="Oferta - Rede Mais" /></figure>
+
+                        <p>Feijão Carioca <span>CURIMATAÚ</span> Tipo 1 - 1 Kg</p>
+                    </a>
+                </div><!-- .item -->
+                <div class="item">
+                    <a href="">
+                        <figure><img src="assets/images/oferta-rede-mais.png" alt="Oferta - Rede Mais" /></figure>
+
+                        <p>Feijão Carioca <span>CURIMATAÚ</span> Tipo 1 - 1 Kg</p>
+                    </a>
+                </div><!-- .item -->
+                <div class="item">
+                    <a href="">
+                        <figure><img src="assets/images/oferta-rede-mais.png" alt="Oferta - Rede Mais" /></figure>
+
+                        <p>Feijão Carioca <span>CURIMATAÚ</span> Tipo 1 - 1 Kg</p>
+                    </a>
+                </div><!-- .item -->
+                <div class="item">
+                    <a href="">
+                        <figure><img src="assets/images/oferta-rede-mais.png" alt="Oferta - Rede Mais" /></figure>
+
+                        <p>Feijão Carioca <span>CURIMATAÚ</span> Tipo 1 - 1 Kg</p>
+                    </a>
+                </div><!-- .item -->
+                <div class="item">
+                    <a href="">
+                        <figure><img src="assets/images/oferta-rede-mais.png" alt="Oferta - Rede Mais" /></figure>
+
+                        <p>Feijão Carioca <span>CURIMATAÚ</span> Tipo 1 - 1 Kg</p>
+                    </a>
+                </div><!-- .item -->
+                <div class="item">
+                    <a href="">
+                        <figure><img src="assets/images/oferta-rede-mais.png" alt="Oferta - Rede Mais" /></figure>
 
                         <p>Feijão Carioca <span>CURIMATAÚ</span> Tipo 1 - 1 Kg</p>
                     </a>
@@ -60,4 +95,73 @@
         </div><!-- container -->
     </section><!-- rede-mais -->
 
+    <section class="dicas">
+        <div class="container">
+            <!-- Nav tabs -->
+            <ul class="nav-dicas" role="tablist">
+                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Açougue</a></li>
+                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Culinária</a></li>
+                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Lojas e Serviços</a></li>
+                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Vinhos</a></li>
+            </ul>
+
+            <h2>Dicas Rede Mais</h2>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="home">
+                    <div class="owl-carousel owl-theme" id="owl-dicas">
+                        <div class="item">
+                            <a href="">
+                                <figure><img src="assets/images/dica-rede-mais.jpg" alt="Dicas - Rede Mais" /></figure>
+
+                                <div class="content">
+                                    <h4>Título dica</h4>
+                                    <p>Aaaaaaa asdasdfasdf asdfas df asdfasdf aaddf asdf asdf adsf asdf asdf asdf asdf asdf asdf asdf sadf asdf asdf asdfasdf asdf asdf asdf asdf asdf</p>
+                                </div><!-- content -->
+                            </a>
+                        </div><!-- .item -->
+                    </div><!-- . owl-carousel -->
+                </div><!-- #home -->
+                <div role="tabpanel" class="tab-pane" id="profile">
+                    <div class="owl-carousel owl-theme" id="owl-dicas2">
+                        <div class="item">
+                            <a href="">
+                                <figure><img src="assets/images/dica-rede-mais.jpg" alt="Dicas - Rede Mais" /></figure>
+
+                                <div class="content">
+                                    <h4>Título dica</h4>
+                                    <p>Aaaaaaa asdasdfasdf asdfas df asdfasdf aaddf asdf asdf adsf asdf asdf asdf asdf asdf asdf asdf sadf asdf asdf asdfasdf asdf asdf asdf asdf asdf</p>
+                                </div><!-- content -->
+                            </a>
+                        </div><!-- .item -->
+                    </div><!-- . owl-carousel -->
+                </div><!-- #profile -->
+            </div><!-- tab-content -->
+        </div><!-- .container -->
+    </section><!-- .dicas -->
+
+    <section class="itens">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="assets/images/item1-rede-mais.jpg" alt="Item - Rede Mais" />    
+                </div><!-- md-6 -->
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="assets/images/item2-rede-mais.jpg" alt="Item - Rede Mais" />    
+                </div><!-- md-6 -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section><!-- itens -->
+
+    <section class="mapa">
+        <div class="proximos">
+            <div class="container">
+                <div class="content">
+                    
+                </div><!-- content -->
+            </div><!-- container -->
+        </div><!-- proximos -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15877.55443377867!2d-35.20935140167131!3d-5.800663615491434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b3aaa7e5b3c32d%3A0x77993f392b8cf8bb!2sRede+Mais!5e0!3m2!1spt-BR!2sbr!4v1508874105926" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section><!-- mapa -->
 <?php include 'components/footer.php'; ?>   

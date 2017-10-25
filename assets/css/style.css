@@ -37,6 +37,67 @@ body {
     border-bottom: 2px solid #d62d27;
     padding-top: 10px;
 }
+.enviar {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #d62d27;
+    background: #d62d27;
+    padding: 0 40px;
+    height: 45px;
+}
+.enviar:hover {
+    color: #d62d27;
+    background: #fff;
+}
+.owl-carousel {
+    padding: 0 60px;
+}
+.owl-prev {
+    position: absolute;
+    top: 40%;
+    margin-left: -46px;
+    display: block!important;
+}
+.owl-next {
+    position: absolute;
+    top: 40%;
+    right: 15px;
+    display: block!important;
+}
+.owl-prev i,
+.owl-next i {
+    transform: scale(2,2);
+    color: #fff;
+    background: #d62d27;
+    padding: 20px 6px;
+}
+.owl-prev i:hover,
+.owl-next i:hover {
+    color: #d62d27;
+    background: #fff;
+    border: 1px solid #d62d27;
+}
+figure {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+figure:hover+span {
+    bottom: -36px;
+    opacity: 1;
+}
+figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+figure:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
 
 
 .navbar-default {
@@ -159,19 +220,6 @@ ul.nav>li>a:hover {
     border: 1px solid #fff;
     padding: 20px;
 }
-.enviar {
-    font-size: 14px;
-    color: #fff;
-    text-transform: uppercase;
-    border: 1px solid #d62d27;
-    background: #d62d27;
-    padding: 0 40px;
-    height: 45px;
-}
-.enviar:hover {
-    color: #d62d27;
-    background: #fff;
-}
 
 
 .oferta {
@@ -215,6 +263,140 @@ ul.nav>li>a:hover {
     height: 400px;
     object-fit: cover;
 }
+
+
+.dicas {
+    background: url('../images/dicas-rede-mais.jpg') no-repeat top center;
+    height: 670px;
+    display: flex;
+    align-items: center;
+}
+.dicas h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fba500;
+    border-bottom: 1px solid #fba500;
+    padding-bottom: 25px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.nav-dicas {
+    float: right;
+    position: relative;
+    top: 5px;
+}
+.nav-dicas>li {
+    float: left;
+    margin-left: 25px;
+}
+.nav-dicas>li>a {
+    font-size: 20px;
+    color: #fff;
+}
+.nav-dicas>li>a:hover,
+.nav-dicas>li.active>a {
+    font-weight: bold;
+    color: #fba500;
+}
+.dicas img {
+    border-bottom: 5px solid #ed9100;
+}
+.dicas .content {
+    background: #fff;
+    width: 100%;
+    height: 200px;
+    min-height: 150px;
+    height: 100%;
+    display: flow-root;
+    padding: 20px 30px;
+}
+.dicas h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #434343;
+    margin-top: 0;
+}
+.dicas p {
+    font-size: 12px;
+    color: #434343;
+    text-align: justify;
+}
+.dicas a:hover .content {
+    background: #ed9100;
+}
+.dicas a:hover h4,
+.dicas a:hover p {
+    color: #fff;
+}
+.dicas .owl-prev i,
+.dicas .owl-next i {
+    font-weight: bold;
+    color: #ffaa00;
+    transform: scale(4,4);
+    background: transparent;
+    padding: 0;
+}
+.dicas .owl-prev i:hover,
+.dicas .owl-next i:hover {
+    color: #fff;
+    background: transparent;
+    border: none;
+}
+
+
+.itens {
+    min-height: 370px;
+    display: flex;
+    align-items: center;
+}
+.itens img {
+    width: 100%;
+}
+
+
+.mapa {
+    height: 500px;
+}
+.mapa .content {
+    width: 315px;
+    height: 305px;
+    background: #991910;
+    border-radius: 5px;
+}
+.mapa .proximos {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
