@@ -81,11 +81,11 @@
     <section class="rede-mais">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9 col-md-9 col-sm-9">
+                <div class="col-lg-9 col-md-9 col-sm-8">
                     <h2 class="titulo-geral">TV Rede Mais</h2>
                     <iframe width="100%" height="400" src="https://www.youtube.com/embed/QAUzWtLMnU0" frameborder="0" allowfullscreen></iframe>
                 </div><!-- md-9 -->
-                <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="col-lg-3 col-md-3 col-sm-4">
                     <h2 class="titulo-geral">Muito Mais Ofertas</h2>
                     <a href="">
                         <img src="assets/images/encarte-rede-mais.jpg" alt="Encarte - Rede Mais" />
@@ -111,6 +111,36 @@
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="home">
                     <div class="owl-carousel owl-theme" id="owl-dicas">
+                        <div class="item">
+                            <a href="">
+                                <figure><img src="assets/images/dica-rede-mais.jpg" alt="Dicas - Rede Mais" /></figure>
+
+                                <div class="content">
+                                    <h4>Título dica</h4>
+                                    <p>Aaaaaaa asdasdfasdf asdfas df asdfasdf aaddf asdf asdf adsf asdf asdf asdf asdf asdf asdf asdf sadf asdf asdf asdfasdf asdf asdf asdf asdf asdf</p>
+                                </div><!-- content -->
+                            </a>
+                        </div><!-- .item -->
+                        <div class="item">
+                            <a href="">
+                                <figure><img src="assets/images/dica-rede-mais.jpg" alt="Dicas - Rede Mais" /></figure>
+
+                                <div class="content">
+                                    <h4>Título dica</h4>
+                                    <p>Aaaaaaa asdasdfasdf asdfas df asdfasdf aaddf asdf asdf adsf asdf asdf asdf asdf asdf asdf asdf sadf asdf asdf asdfasdf asdf asdf asdf asdf asdf</p>
+                                </div><!-- content -->
+                            </a>
+                        </div><!-- .item -->
+                        <div class="item">
+                            <a href="">
+                                <figure><img src="assets/images/dica-rede-mais.jpg" alt="Dicas - Rede Mais" /></figure>
+
+                                <div class="content">
+                                    <h4>Título dica</h4>
+                                    <p>Aaaaaaa asdasdfasdf asdfas df asdfasdf aaddf asdf asdf adsf asdf asdf asdf asdf asdf asdf asdf sadf asdf asdf asdfasdf asdf asdf asdf asdf asdf</p>
+                                </div><!-- content -->
+                            </a>
+                        </div><!-- .item -->
                         <div class="item">
                             <a href="">
                                 <figure><img src="assets/images/dica-rede-mais.jpg" alt="Dicas - Rede Mais" /></figure>

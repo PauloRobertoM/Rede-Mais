@@ -194,7 +194,7 @@ ul.nav>li>a:hover {
 
 .confira {
     background: #f9b700;
-    height: 115px;
+    min-height: 115px;
     display: flex;
     align-items: center;
 }
@@ -248,7 +248,7 @@ ul.nav>li>a:hover {
 
 
 .rede-mais {
-    height: 700px;
+    min-height: 700px;
     display: flex;
     align-items: center;
 }
@@ -478,42 +478,13 @@ footer .redes-sociais i:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* --- MOBILE --- */
 @media (max-width: 767px) {
     .navbar-header img {
-        margin: 20px 0;
+        margin: 0;
         width: 180px;
     }
-    .topo {
+    .busca {
         display: none;
     }
     #bs-example-navbar-collapse-1 {
@@ -533,13 +504,13 @@ footer .redes-sociais i:hover {
     }
     .navbar-default .navbar-collapse,
     .navbar-default .navbar-form {
-        background: transparent;
+        background: #d62d27;
         z-index: 100;
         position: relative;
-        min-height: 380px;
+        min-height: 300px;
         padding: 10px 30px;
         margin-right: -15px!important;
-        top: -135px;
+        top: -50px;
         border-top: 0;
     }
     .head-interna .navbar-default .navbar-collapse, 
@@ -565,7 +536,124 @@ footer .redes-sociais i:hover {
     .navbar-nav>li>a {
         padding: 15px 10px!important;
     }
+    .owl-nav {
+        display: none;
+    }
+    .oferta .owl-carousel,
+    .dicas .owl-carousel {
+        padding: 0;
+    }
+    .confira {
+        padding: 20px 0;
+    }
+    .confira img {
+        width: 150px;
+        float: left;
+    }
+    .confira h2 {
+        font-size: 16px;
+        float: right;
+    }
+    .confira form {
+        margin-left: 0;
+    }
+    .confira .input-geral {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 15px;
+    }
+    .enviar {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .oferta {
+        min-height: 400px;
+        height: 100%;
+        padding: 40px 0;
+    }
+    .rede-mais {
+        padding: 40px 0;
+    }
+    .rede-mais iframe {
+        margin-bottom: 30px;
+    }
+    .nav-dicas {
+        float: none;
+        top: 100px;
+    }
+    .nav-dicas>li {
+        margin-left: 10px;
+    }
+    .nav-dicas>li>a {
+        font-size: 12px;
+    }
+    .dicas h2 {
+        margin-bottom: 70px;
+    }
+    .itens img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .itens {
+        min-height: 320px;
+    }
+    .mapa {
+        min-height: 500px;
+        height: 100%;
+        margin-bottom: -5px;
+    }
+    .mapa .proximos {
+        position: initial;
+        height: auto;
+        display: block;
+    }
+    .mapa .content {
+        width: 100%;
+        padding: 20px;
+    }
+    footer {
+        padding: 20px 0;
+    }
+    footer .endereco {
+        top: 0;
+        display: block;
+        margin-bottom: 15px;
+    }
+    footer span .fa-phone {
+        margin-left: 0;
+    }
+    footer .redes-sociais {
+        float: left;
+        margin-top: 10px;
+    }
 }
-@media (min-width: 768px) and (max-width: 1000px) {
-    
+@media (min-width: 768px) and (max-width: 1180px) {
+    .navbar-header img {
+        margin-top: 35px;
+        width: 200px;
+    }
+    .busca {
+        width: 30%;
+    }
+    .busca .navbar-form {
+        width: 100%;
+        padding: 0;
+    }
+    ul.nav>li>a {
+        font-size: 14px;
+        padding: 10px 5px;
+    }
+    .confira img {
+        width: 130px;
+    }
+    .confira h2 {
+        font-size: 16px;
+    }
+    .confira .input-geral {
+        width: 163px;
+        margin-right: 5px;
+    }
+    .enviar {
+        padding: 0 20px;
+    }
 }
