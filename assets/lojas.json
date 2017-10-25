@@ -1,0 +1,64 @@
+[{
+    "cidades": "Natal",
+    "lojas": [
+        "Comprebem - Cidade da Esperança",
+        "Comprebem - São José",
+        "Serve Bem - Felipe Camarão",
+        "Daterra",
+        "Serve Bem - Cidade da Esperança",
+        "Tampinha",
+        "Pajuçara",
+        "Veneza",
+        "Serve Bem - Planalto"
+    ]
+},
+{
+    "cidades": "Ceará Mirim",
+    "lojas": [
+        "Opção",
+        "RedeMais Opção 2 - Ceará Mirim"
+    ]
+},
+{
+    "cidades": "Cruzeta",
+    "lojas": [
+        "J. Araújo"
+    ]
+},
+{
+    "cidades": "Currais Novos",
+    "lojas": [
+        "Venâncio"
+    ]
+},
+{
+    "cidades": "João Câmara",
+    "lojas": [
+        "Comprebem - João Câmara/RN"
+    ]
+},
+{
+    "cidades": "Macau",
+    "lojas": [
+        "Comprebem - Macau/RN"
+    ]
+},
+{
+    "cidades": "Nova Cruz",
+    "lojas": [
+        "Nova Cruz"
+    ]
+},
+{
+    "cidades": "Parnamirim",
+    "lojas": [
+        "Serve Bem - Parnamirim",
+        "Rosa dos Ventos - Parnamirim"
+    ]
+},
+{
+    "cidades": "Santa Cruz",
+    "lojas": [
+        "Santa Cruz"
+    ]
+}]

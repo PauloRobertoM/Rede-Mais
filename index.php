@@ -155,13 +155,31 @@
     </section><!-- itens -->
 
     <section class="mapa">
-        <div class="proximos">
-            <div class="container">
+        <div class="container">
+            <div class="proximos">
                 <div class="content">
-                    
+                    <h4>Veja aqui o <span>Rede Mais</span></h4>
+                    <h4>mais <span>próximo de você!</span></h4>
+                    <div class="borda"></div>
+
+                    <form method="post" action="" id="pesquisa_loja">
+                        <div class="select-wrapper">
+                            <select id="cidades">
+                                <option value=""></option>
+                            </select>
+                        </div><!-- select-wrapper -->
+                        <div class="select-wrapper">
+                            <select id="lojas">
+                            </select>
+                        </div><!-- select-wrapper -->
+
+                        <button>Buscar</button>
+                    </form>
                 </div><!-- content -->
-            </div><!-- container -->
-        </div><!-- proximos -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15877.55443377867!2d-35.20935140167131!3d-5.800663615491434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b3aaa7e5b3c32d%3A0x77993f392b8cf8bb!2sRede+Mais!5e0!3m2!1spt-BR!2sbr!4v1508874105926" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div><!-- proximos -->
+        </div><!-- container -->
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63510.24934150012!2d-35.235616170710614!3d-5.800382928729211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRede+Mais+Rio+Grande+do+Norte!5e0!3m2!1spt-BR!2sbr!4v1508948424742" width="100%" height="500" id="mapa" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section><!-- mapa -->
-<?php include 'components/footer.php'; ?>   
+
+<?php include 'components/footer.php'; ?>
